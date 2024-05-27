@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="stp.css">
+</head>
+<body>
+    <h1>STOP WATCH</h1>
+    <hr>
+    <div class="clck">
+        <table>
+            <tr>
+                <td><span id="min">00</span></td>
+                <td><span>:</span></td>
+                <td><span id="sec">00</span></td>
+                <td><span>:</span></td>
+                <td><span id="msec">00</span></td>
+            </tr>
+        </table>
+    </div>
+    <div class="bx">
+        <button id="bt1" onclick="start()">Start</button>
+        <button id="bt2" onclick="stop()">Stop</button>
+        <button id="bt3" onclick="reset()">Reset</button>
+        <button id="bt4">Lap</button>
+    </div>
+   <div class="lp" id="lp">
+    
+   </div>
+
+<script src="stp.js"></script>
+</body>
+</html>

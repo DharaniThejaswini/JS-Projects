@@ -1,0 +1,70 @@
+body
+{
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+        background-color: grey;
+}
+h1
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.clck
+{
+        width: 500px;
+        height: 500px;
+        font-size: 60px;
+        border-radius: 50%;
+        background-color: aquamarine;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.bx
+{
+    width: 700px;
+    height: 70px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 100px;
+}
+
+button
+{
+    width: 100px;
+    height: 70px;
+    border-radius: 50%;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(255, 196, 45);
+    margin-top: 50px;
+    box-shadow: 5px 5px 30px;
+}
+
+#bt2
+{
+    display: none;
+}
+.lp
+{
+    width: 250px;
+    height: 100%;
+    background-color: rgb(53, 50, 50);
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align:start;
+    font-size: larger;
+    display: none;
+    overflow-y: scroll;
+}
+
